@@ -1,0 +1,39 @@
+<resources>
+    <string name="about">Developed by Ivan Gretić. \n\nAll images are property of their respective owners on www.freepik.com</string>
+    <!--Contact Form-->
+    <string name="feedbackbutton">Send</string>
+    <string name="feedbackmessagebody_format">To: The %1$s Department\n\n %2$s\n\n %3$s (%4$s) - %5$s</string>
+    <string name="feedbackmessagebody_responseyes">Requires a response</string>
+    <string name="feedbackmessagebody_responseno">Does not require a response</string>
+    <string name="feedbackmessagesubject_format">Application Feedback (%1$s)</string>
+    <string name="feedbackname">Your name</string>
+    <string name="feedbackemail">Your email</string>
+    <string name="contact_form_subject">Subject</string>
+    <string name="feedbacktype">Enter feedback type...</string>
+    <string name="feedbacktype3">Job Inquiry</string>
+    <string name="feedbacktype2">Complaint</string>
+    <string name="feedbacktype1">Products &amp; Services</string>
+    <string name="feedbacktype4">Other</string>
+    <string name="contact_form_message">Message</string>
+    <string name="contact_form_button">Send Message</string>
+    <string name="location">C5 Industries Customer Relationship Center\n3880 Greenhouse Rd\nHouston, TX</string>
+    <string name="phone1">Customer Support</string>
+    <string name="phone2">Sales Department</string>
+    <string name="feedbackbody">Your message</string>
+    <string name="feedbackresponse">Would you like an email response?</string>
+    <!--App Content-->
+    <string name="app_name">C5 Industries</string>
+    <string name="about_title">About</string>
+    <string name="about_text1">The future of industrial digitalization</string>
+    <string name="about_text2">For more than two decades, we have been at the leading edge, innovating digitally connected systems.</string>
+    <string name="about_text3">Every day, we drive efficiency, safety and productivity in utilities, industry and
+    transport globally.</string>
+    <string name="about_text4">With a heritage spanning more than 40 years, C5 Industries operates in more than 15
+    countries and employs around 15,000 people.</string>
+    <string name="product_tab_1">Industrial Automation</string>
+    <string name="product_tab_1_2">Products, systems and services designed to optimize the productivity of industrial processes. </string>
+    <string name="product_tab_2">Robotics and Motion</string>
+    <string name="product_tab_2_2">Motors, generators, drives, mechanical power transmission, robotics, wind and traction converters.</string>
+    <string name="product_tab_3">Power Grids</string>
+    <string name="product_tab_3_2">Automation products, systems, and software solutions across the generation and distribution value chain.</string>
+</resources>

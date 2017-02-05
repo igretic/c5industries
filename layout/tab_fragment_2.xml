@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    style="@style/about_layout" >
+    <TextView
+        android:id="@+id/textView_p1"
+        style="@style/product_title"
+        android:text="@string/product_tab_1"/>
+    <LinearLayout
+        style="@style/about_sublayout"
+        android:id="@+id/products_lin_1"
+        android:layout_below="@id/textView_p1">
+        <ImageView
+            style="@style/product_images"
+            android:id="@+id/imageView2_1"
+            android:src="@drawable/industrial_robot1" />
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_weight="1"
+            style="@style/product_texts"
+            android:text="@string/product_tab_1_2"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_p2"
+        style="@style/product_title"
+        android:layout_below="@id/products_lin_1"
+        android:text="@string/product_tab_2"/>
+    <LinearLayout
+        style="@style/about_sublayout"
+        android:id="@+id/products_lin_2"
+        android:layout_below="@id/textView_p2">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            style="@style/product_texts"
+            android:text="@string/product_tab_2_2"/>
+        <ImageView
+            style="@style/product_images"
+            android:id="@+id/imageView2"
+            android:src="@drawable/turbine" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView_p3"
+        style="@style/product_title"
+        android:layout_below="@id/products_lin_2"
+        android:text="@string/product_tab_3"/>
+    <LinearLayout
+        style="@style/about_sublayout"
+        android:id="@+id/products_lin_3"
+        android:layout_below="@id/textView_p3">
+        <ImageView
+            style="@style/product_images"
+            android:id="@+id/imageView2_3"
+            android:src="@drawable/electrictower" />
+        <TextView
+            android:id="@+id/textView3_1"
+            android:layout_weight="1"
+            style="@style/product_texts"
+            android:text="@string/product_tab_3_2"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

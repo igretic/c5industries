@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        style="@style/about_layout">
+        <ImageView
+            style="@style/logo"
+            android:src="@drawable/logo"
+            android:id="@+id/logo" />
+        <TextView
+            style="@style/about_text"
+            android:text="@string/about_text1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <ImageView
+                style="@style/about_images"
+                android:id="@+id/aboutimage1"
+                android:layout_weight="1"
+                android:src="@drawable/cloudcomputing" />
+            <ImageView
+                style="@style/about_images"
+                android:layout_weight="1"
+                android:id="@+id/aboutimage2"
+                android:src="@drawable/settings" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/about_text"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:text="@string/about_text2"/>
+            <TextView
+                style="@style/about_text"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:text="@string/about_text3"/>
+        </LinearLayout>
+        <ImageView
+            style="@style/about_images"
+            android:id="@+id/aboutimage3"
+            android:src="@drawable/network" />
+        <TextView
+            style="@style/about_text"
+            android:text="@string/about_text4"/>
+    </LinearLayout>
+</ScrollView>
